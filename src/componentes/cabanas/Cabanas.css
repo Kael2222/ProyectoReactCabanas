@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.img1{
+    width: 400px;
+    height: 500px;
+    border-radius: 2px;
+    background-color:black;
+    box-shadow: 0 3px 13px 1px;
+}
