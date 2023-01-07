@@ -1,0 +1,23 @@
+.wrapper {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.left{
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
