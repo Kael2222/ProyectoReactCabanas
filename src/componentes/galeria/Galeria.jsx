@@ -43,6 +43,7 @@ const Galeria = () => {
         {
             id:8,
             img:Cabana8,
+
         },
 
     ];
