@@ -1,7 +1,7 @@
 import React from 'react'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import CabinIcon from '@mui/icons-material/Cabin';
-import '../css/Navbar.css'
+import '../navbar/Navbar.css'
 
 const Navbar = () => {
   return (
