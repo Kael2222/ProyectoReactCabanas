@@ -1,16 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
 
 
 .img1{
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    min-height: 450px;
     border-radius: 2px;
     background-color:black;
     box-shadow: 0 3px 13px 1px;
 }
+
+.cabana-titulo{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 2.5rem;
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+ }
+
+.cabana-texto{
+    padding-top:2rem;
+    font-size: 1.1rem;
+    font-weight:900px;
+    text-align:justify;   
+}
+
