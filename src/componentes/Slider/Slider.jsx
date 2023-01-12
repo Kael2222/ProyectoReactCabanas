@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
-import '../slider/Slider.css';
+import './Slider.css';
 
 import cabin01 from '../../img/cabin01.jpg';
 import cabin02 from '../../img/cabin02.jpg';

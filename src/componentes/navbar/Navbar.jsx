@@ -5,7 +5,7 @@ import '../navbar/Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <div className="container-fluid bg-light">
         <div className="wrapper">
             <div className="left">
                 <CabinIcon />

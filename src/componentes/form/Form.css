@@ -1,0 +1,8 @@
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
