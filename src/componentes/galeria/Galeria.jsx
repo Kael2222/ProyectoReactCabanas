@@ -54,9 +54,9 @@ return(
         <div className="row">
             {imagenes.map((imagen) => {
                 return(
-                <div className="col-12 col-md-6 col-lg-3">
-                <img className="img-galeria" src={imagen.img}  alt="imagen de una cabana" />
-            </div>
+                <div key={imagen.id} className="col-12 col-md-6 col-lg-3">
+                    <img className="img-galeria" src={imagen.img}  alt="imagen de una cabana" />
+                </div>
             );
             })}
 
