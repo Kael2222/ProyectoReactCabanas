@@ -7,6 +7,8 @@ import Galeria from './componentes/galeria/Galeria'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Form from './componentes/form/Form';
+import Mapa from './componentes/mapa/Mapa';
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
       <Slider />
       <Cabanas />
       <Galeria />
+      <Mapa />
       <Form />
       <Footer />
     </div>
