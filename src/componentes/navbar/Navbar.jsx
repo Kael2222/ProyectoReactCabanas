@@ -5,7 +5,7 @@ import '../navbar/Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className="container-fluid bg-light">
+    <nav className="container-fluid bg-light">
         <div className="wrapper">
             <div className="left">
                 <CabinIcon />
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className="item"><a href='#contact' className="nav-link p-0 text-muted">Contacto</a></div>
             </div>
         </div>
-    </div>
+    </nav>
   )
 }
 
