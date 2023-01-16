@@ -1,2 +1,31 @@
+.icono-logo{
+    font-size: 25px;
+}
 
+.iconos-redes-sociales a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 2px 2px 8px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
 
+.iconos-redes-sociales i{
+    font-size: 20px;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110,253)
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}

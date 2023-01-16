@@ -52,7 +52,7 @@ const Galeria = () => {
 return(
     
     <div className="container contenedor-galeria">
-        <div className="row">
+        <div className="row ">
             {imagenes.map((imagen) => {
                 return(
                 <div key={imagen.id} className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
