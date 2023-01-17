@@ -17,7 +17,7 @@ const Form = () => {
 
   return (
     <>
-    <h2 className="text-center"><b>Contacto</b></h2>
+    <h2 className="text-center" id='contacto'><b>Contacto</b></h2>
     <div className="container container-form">
         <form className="row g-3 mt-3 justify-content-center align-items-center" onSubmit={handleSubmit(FormSubmit)}>
         
