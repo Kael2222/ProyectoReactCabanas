@@ -14,9 +14,7 @@ export default function Slider() {
 
   const data = [cabin01,cabin02,cabin03];
 
-  const autoScroll = true;
   let slideInterval;
-
   const autoPlay = () => {
         slideInterval = setInterval(nextSlide, 5000);
   }  
@@ -25,8 +23,10 @@ export default function Slider() {
   const nextSlide = () => setCurrentSlide(currentSlide === 2 ? 0: prev => prev +1);
 
   useEffect(()=> {
-    if(autoScroll) autoPlay();
-    return () => clearInterval(slideInterval)
+    autoPlay();
+    return () => {
+      clearInterval(slideInterval)
+    }
   }, [currentSlide])  
 
   
