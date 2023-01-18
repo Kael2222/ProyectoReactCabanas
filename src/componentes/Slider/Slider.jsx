@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
 import './Slider.css';
@@ -14,9 +14,21 @@ export default function Slider() {
 
   const data = [cabin01,cabin02,cabin03];
 
-  
+  let slideInterval;
+  const autoPlay = () => {
+        slideInterval = setInterval(nextSlide, 5000);
+  }  
+
   const prevSlide = () => setCurrentSlide(currentSlide === 0 ? 2: prev => prev -1);
   const nextSlide = () => setCurrentSlide(currentSlide === 2 ? 0: prev => prev +1);
+
+  useEffect(()=> {
+    autoPlay();
+    return () => {
+      clearInterval(slideInterval)
+    }
+  }, [currentSlide])  
+
   
   return (
     <div className='slider'>

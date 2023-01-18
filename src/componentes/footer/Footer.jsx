@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="col">
         <h5>Contacto</h5>
         <ul className="nav flex-column">
-        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex iconos-redes-sociales">
+        <ul className="nav col-md-4 list-unstyled d-flex iconos-redes-sociales">
           <li className="ms-3"><a className="" href="https://instagram.com/campingquemquem?igshid=OGQ2MjdiOTE="><i class="bi bi-instagram"></i><svg className="bi bi-instagram" width={24} height={24}><use xlinkHref="#instagram" /></svg></a></li>
           <li className="ms-3"><a className="text-muted" href="https://m.facebook.com/campingquemquem/photos/a.1009718072728462/1010691542631115/?type=3&source=48&__tn__=EH-R"><i class="bi bi-facebook"></i><svg className="bi" width={24} height={24}><use xlinkHref="#facebook" /></svg></a></li>
           <li className="ms-3"><a className="" href="mailto:yoriokael@gmail.com"><i class="bi bi-envelope"></i><svg className="bi bi-instagram" width={24} height={24}><use xlinkHref="#instagram" /></svg></a></li>
