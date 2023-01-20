@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Form from './componentes/form/Form';
 import Mapa from './componentes/mapa/Mapa';
+import Testimonios from './componentes/testimonios/Testimonios';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Cabanas />
       <Galeria />
       <Mapa />
+      <Testimonios />
       <Form />
       <Footer />
     </div>
