@@ -10,7 +10,7 @@ const Testimonios = () => {
     
     < div className="testimonios" id="testimonios">
         
-        <h2 className="text-center">Testimonios</h2>
+        <h2 className="text-center titulo">Testimonios</h2>
         <h3 className="text-center">Estos son algunos comentarios de quienes pasaron por nuestras Cabañas ...</h3>
 
         <div id="testimonios-carrusel" class="carousel carousel-dark slide">

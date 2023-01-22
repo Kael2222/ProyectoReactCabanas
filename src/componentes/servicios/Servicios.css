@@ -1,0 +1,33 @@
+.contenedor-servicios {
+    width: 100%;
+    height: 300px;
+    background-color:rgb(123, 123, 132);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.iconos-servicios {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 2px 2px 2px;
+    margin: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    font-size: 40px;
+    color:white;
+}
+
+.contenedor-servicios p {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.iconos-servicios:hover {
+    color: black;
+}

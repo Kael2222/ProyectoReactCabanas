@@ -39,7 +39,7 @@ const Mapa = () => {
         </div>
 
         <div className="col-12 col-lg-6 ">
-              <h2 className="mapa-titulo">Cómo Llego</h2>
+              <h2 className="titulo">Cómo Llego</h2>
                   <p className=' mapa-texto m-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam omnis dolor aliquid unde iure necessitatibus inventore, soluta officiis accusantium assumenda tenetur magni quo error ut iusto facere blanditiis, saepe quasi.
                   Distinctio adipisci ullam at doloremque illum rem sit quis tenetur, praesentium architecto, in minus accusantium nostrum? Ex fugit repellendus impedit dignissimos asperiores et? Ea aut consequatur itaque vitae, iste eum.
                   Incidunt debitis soluta, tempora rem laboriosam repellendus illo quaerat odit totam, possimus unde libero ipsum minima, quas qui eum. Ipsa vel at accusamus maiores delectus aliquid nesciunt quam labore corporis.
