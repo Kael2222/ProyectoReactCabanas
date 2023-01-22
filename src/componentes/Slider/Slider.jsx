@@ -9,7 +9,7 @@ import cabin03 from '../../img/cabin03.jpg';
 
 export default function Slider() {
 
-  console.log(cabin01);  
+  //console.log(cabin01);  
   const [currentSlide, setCurrentSlide] =  useState(0);
 
   const data = [cabin01,cabin02,cabin03];
