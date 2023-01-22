@@ -9,6 +9,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Form from './componentes/form/Form';
 import Mapa from './componentes/mapa/Mapa';
 import Testimonios from './componentes/testimonios/Testimonios';
+import Servicios from './componentes/servicios/Servicios';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Cabanas />
       <Galeria />
       <Mapa />
+      <Servicios />
       <Testimonios />
       <Form />
       <Footer />
