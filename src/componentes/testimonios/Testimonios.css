@@ -23,10 +23,9 @@
     justify-content: center;
 }
 
-.testimonio-imagen{
-    height: 150px;
-    width: 150px;
-    margin: 10px 10px 20px 10px;
+.testimonio-icono{
+    font-size: 60px;
+    color:black;
 }
 
 .testimonio-texto{
