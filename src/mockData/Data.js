@@ -18,3 +18,36 @@ export const comentarios = [
       id:3,
     },
   ];
+
+  export const iconos = [
+    {
+      id:0,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    },
+    {
+      id:1,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    },
+    {
+      id:2,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    },
+    {
+      id:3,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    },
+    {
+      id:4,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    },
+    {
+      id:5,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    }
+  ]; 
