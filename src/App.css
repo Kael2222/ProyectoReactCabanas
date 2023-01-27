@@ -18,3 +18,11 @@ footer{
     position: absolute;
     width: 100%;
 }
+
+.scrollDisabled {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: auto;
+}
