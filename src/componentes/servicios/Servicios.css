@@ -1,33 +1,34 @@
 .contenedor-servicios {
     width: 100%;
-    height: 300px;
-    background-color:rgb(137, 137, 242);
+    height: 400px;
+    background-color:rgb(206, 206, 242);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     
 }
 
 .iconos-servicios {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2px 2px 2px 2px;
     margin: 20px;
-    border: 4px solid white;
+    border: 4px solid black;
     border-radius: 50%;
     font-size: 40px;
-    color:white;
+    color:black;
 }
 
 .contenedor-servicios p {
     font-weight: bold;
     text-align: center;
-    color: white;
+    color:black;
 }
 
 .iconos-servicios:hover {
-    color: black;
+    color: green;
+    border: 4px solid green;
 }

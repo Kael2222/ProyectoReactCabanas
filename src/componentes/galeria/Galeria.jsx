@@ -49,6 +49,7 @@ const Galeria = ({ setIsModalOpen }) => {
         },
 
     ];
+    
     const [clickedImg, setClickedImg] = useState({
         item: null,
         index: null

@@ -49,5 +49,15 @@ export const comentarios = [
       id:5,
       name:'Internet wifi',
       btName:'bi bi-wifi',
+    },
+    {
+      id:6,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
+    },
+    {
+      id:7,
+      name:'Internet wifi',
+      btName:'bi bi-wifi',
     }
   ]; 
