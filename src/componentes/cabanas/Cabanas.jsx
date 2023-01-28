@@ -1,5 +1,4 @@
 import React from 'react'
-import cabana from "../imagenes/cabana1.jpg"
 import "../cabanas/Cabanas.css"
 import '../../App.css';
 
@@ -8,7 +7,7 @@ const Cabana = () => {
     <div className="container text-center mt-5 " id='cabanas'>
       <div className="row">
         <div className="col-12 col-lg-6">
-          <img className='img1 img-thumbnail'  src= {cabana} alt={cabana}/>
+          <img className='img1 img-thumbnail'  src="https://res.cloudinary.com/dse7avpgs/image/upload/v1674911655/cabana1_hj6uxo.jpg" alt="Imagen de una cabaña"/>
         </div>
       
         <div className="col-12 col-lg-6">

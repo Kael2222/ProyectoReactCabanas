@@ -1,55 +1,12 @@
 import { useState, useEffect } from "react"
 import "../galeria/Galeria.css"
-import Cabana1 from "../imagenes/cabana-1.jpg"
-import Cabana2 from "../imagenes/cabana-2.jpg"
-import Cabana3 from "../imagenes/cabana-3.jpg"
-import Cabana4 from "../imagenes/cabana-4.jpg"
-import Cabana5 from "../imagenes/cabana-5.jpg"
-import Cabana6 from "../imagenes/cabana-6.jpg"
-import Cabana7 from "../imagenes/cabana-7.jpg"
-import Cabana8 from "../imagenes/cabana-8.jpg"
 import ImgModal from "../img-modal/ImgModal"
+import { imagenes } from "../../mockData/Data";
 
 
 const Galeria = ({ setIsModalOpen }) => {
 
-    const imagenes = [
-        {
-            id: 0,
-            img: Cabana1,
-        },
-        {
-            id: 1,
-            img: Cabana2,
-        },
-        {
-            id: 2,
-            img: Cabana3,
-        },
-        {
-            id: 3,
-            img: Cabana4,
-        },
-        {
-            id: 4,
-            img: Cabana5,
-        },
-        {
-            id: 5,
-            img: Cabana6,
-        },
-        {
-            id: 6,
-            img: Cabana7,
-        },
-        {
-            id: 7,
-            img: Cabana8,
 
-        },
-
-    ];
-    
     const [clickedImg, setClickedImg] = useState({
         item: null,
         index: null

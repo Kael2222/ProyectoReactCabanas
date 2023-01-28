@@ -61,3 +61,40 @@ export const comentarios = [
       btName:'bi bi-wifi',
     }
   ]; 
+
+  export const imagenes = [
+    {
+        id: 0,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911197/cabana-1_raaozd.jpg",
+    },
+    {
+        id: 1,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911206/cabana-2_nagduf.jpg",
+    },
+    {
+        id: 2,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911215/cabana-3_kmcbkh.jpg",
+    },
+    {
+        id: 3,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911221/cabana-4_zdqdur.jpg",
+    },
+    {
+        id: 4,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911229/cabana-5_xysugj.jpg",
+    },
+    {
+        id: 5,
+        img:"https://res.cloudinary.com/dse7avpgs/image/upload/v1674911237/cabana-6_rlpykd.jpg",
+    },
+    {
+        id: 6,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911252/cabana-7_mdc8tx.jpg",
+    },
+    {
+        id: 7,
+        img: "https://res.cloudinary.com/dse7avpgs/image/upload/v1674911258/cabana-8_jxqswj.jpg",
+
+    },
+
+];
