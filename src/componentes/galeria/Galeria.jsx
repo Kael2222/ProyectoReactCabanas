@@ -49,20 +49,20 @@ const Galeria = ({ setIsModalOpen }) => {
         },
 
     ];
+    const [clickedImg, setClickedImg] = useState({
+        item: null,
+        index: null
+    });
 
     useEffect(() => {
 
-        setIsModalOpen(clickedImg.item && (clickedImg.index || clickedImg.index === 0))
+        setIsModalOpen(!!(clickedImg.item && (clickedImg.index || clickedImg.index === 0)))
     }, [clickedImg])
 
     //NUEVO BLOQUE ---->  (IMAGE MODAL)
 
 
 
-    const [clickedImg, setClickedImg] = useState({
-        item: null,
-        index: null
-    });
 
     const handleClick = (data) => {
         setClickedImg({ item: data.img, index: data.id })

@@ -24,7 +24,7 @@ const Mapa = () => {
   return (
     <div className="container text-center d-flex align-items-center justify-content-center p-5 " id="ubicacion">
       <div className="row">
-        <div className="col-12 col-lg-6 mb-5 align-items-center d-flex flex-column">
+        <div className="col-12 col-lg-6 mb-5 align-items-center d-flex flex-column z-0">
           <MapContainer center={[-32.89084, -68.82717]} zoom={13} scrollWheelZoom={false} className="mapa">
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

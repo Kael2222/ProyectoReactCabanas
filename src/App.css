@@ -14,15 +14,18 @@ body {
     min-height: 100vh;
 }
 
-footer{
-    position: absolute;
+footer{  
     width: 100%;
 }
 
 .scrollDisabled {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .scroll {
-    overflow: auto;
+    overflow-y: auto;
+}
+
+.App{
+    height: 100vh;
 }

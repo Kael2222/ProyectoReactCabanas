@@ -14,11 +14,10 @@ import Servicios from './componentes/servicios/Servicios';
 import React from 'react';
 
 
-
-
 function App() {
   
-  const [isModalOpen, setIsModalOpen] =useState(false)
+  const [isModalOpen, setIsModalOpen] =useState(false);
+  
   return (
     <div className={`App ${isModalOpen ? "scrollDisabled" : "scroll"}`}>
       <Header />

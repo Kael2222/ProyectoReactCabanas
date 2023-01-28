@@ -9,8 +9,8 @@ const Footer = () => {
     
    
   
-    <div className="container-fluid">
-    <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 bg-dark text-white d-flex justify-content-center align-items-center">
+  
+    <footer className="row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 bg-dark text-white d-flex justify-content-center align-items-center">
       <div className="col ">
         <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
           <CabinIcon />
@@ -48,8 +48,7 @@ const Footer = () => {
         </ul>
       </div>
     </footer>
-  </div>
-  
+ 
     
   )
 }
