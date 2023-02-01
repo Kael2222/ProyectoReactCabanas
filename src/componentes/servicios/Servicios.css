@@ -1,6 +1,7 @@
 .contenedor-servicios {
     width: 100%;
-    height: 400px;
+    max-width: none;
+    height: 448px;
     background-color:rgb(206, 206, 242);
     display: flex;
     justify-content: center;

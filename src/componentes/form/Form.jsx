@@ -19,6 +19,101 @@ const Form = () => {
     <>
     <h2 className="text-center titulo" id='contacto'>Contacto</h2>
     <div className="container container-form">
+        <form className="myform g-3" onSubmit={handleSubmit(FormSubmit)}>
+        
+        <div className="col-4">
+            <label htmlFor="nombre" className="form-label">Nombre:</label>
+            <input 
+            {...register("nombre", { required: true })}
+            type="text" 
+            className="form-control"
+            id="nombre" 
+            name="nombre"  
+            placeholder="Ingrese su Nombre"
+            value={nombre}
+            onChange={(e) => setNombre(e.target.value)} />
+            <p className="text-danger">{errors.nombre?.type === 'required' && "Este campo es obligatorio"}</p>
+
+        </div>
+        <div className="col-4">
+            <label htmlFor="apellido" className="form-label">Apellido:</label>
+            <input 
+             {...register("apellido", { required: true })}
+            type="text" 
+            className="form-control"
+            id="apellido" 
+            name="apellido"  
+            placeholder="Ingrese su Apellido"
+            value={apellido}
+            onChange={(e) => setApellido(e.target.value)} />
+            <p className="text-danger">{errors.nombre?.type === 'required' && "Este campo es obligatorio"}</p>
+        </div>
+        <div className="col-4">
+            <label htmlFor="email" className="form-label">E-mail:</label>
+            <input 
+             {...register("email", { required: true, pattern:/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/ })}
+            type="email" 
+            className="form-control"
+            id="email" 
+            name="email"  
+            placeholder="Ingrese su E-mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}  />
+              <p className="text-danger">
+                {errors.email?.type === 'required' && "Este campo es obligatorio"}
+                {errors.email?.type === 'pattern' && "El formato del correo no es correcto"}
+            </p>
+        </div>
+        <div className="col-4">
+            <label htmlFor="telefono" className="form-label">Teléfono :</label>
+            <input 
+            {...register("telefono", { required: true, maxLength:10, pattern:/^([0-9]*)$/  })}
+            type="text" 
+            className="form-control"
+            id="telefono" 
+            name="telefono"  
+            placeholder="Ingrese su teléfono "
+            value={telefono}
+            onChange={(e) => setTelefono(e.target.value)} />
+            <p className="text-danger">
+                {errors.telefono?.type === 'required' && "Este campo es obligatorio"}
+                {errors.telefono?.type === 'pattern' && "Solo se permiten numeros en este campo"}
+            </p>
+        </div>
+        <div className="col-4 text-center mt-3">
+            <label htmlFor="mensaje" className="form-label">Mensaje:</label>
+            <textarea 
+             {...register("mensaje", { required: true })}
+            type="textarea" 
+            rows={3}
+            className="form-control"
+            id="mensaje" 
+            name="mensaje"  
+            placeholder="Ingrese su mensaje..."
+            value={mensaje}
+            onChange={(e) => setMensaje(e.target.value)} />
+            <p className="text-danger">{errors.mensaje?.type === 'required' && "Este campo es obligatorio"}</p>
+        </div>
+        <div className="col-12 text-center">
+            <button 
+            type="submit"
+            className="sbtn btn btn-dark">Enviar</button>
+        </div>
+        </form>
+    </div>
+
+    </>
+  )
+};
+
+
+export default Form;
+
+/*
+
+
+
+<div className="container container-form">
         <form className="row g-3 mt-3 justify-content-center align-items-center" onSubmit={handleSubmit(FormSubmit)}>
         
         <div className="col-6">
@@ -101,10 +196,23 @@ const Form = () => {
         </form>
     </div>
 
-    </>
-  )
-};
 
 
-export default Form;
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(248, 243, 243);
+    padding-bottom: 15px;
+    margin-top: 30px;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px 1px;
+}
 
+
+
+
+
+
+
+*/

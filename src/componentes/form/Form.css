@@ -2,9 +2,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(248, 243, 243);
     padding-bottom: 15px;
     margin-top: 30px;
     border-radius: 2px;
-    box-shadow: 0 2px 10px 1px;
+    background-color: #eee;
+    max-width: none;
+}
+
+
+.container-form{
+    justify-content: flex-start;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.form-control{
+    padding: 1.2rem 0.75rem;
+}
+
+.col-4{
+    width: 20%;
+}
+
+.sbtn {
+    margin-top: 1.5rem;
+    width: 20%;
+    padding: 1.5rem;
 }
