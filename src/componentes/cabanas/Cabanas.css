@@ -23,10 +23,29 @@
  }
 
 .cabana-texto{
-    padding-top:2rem;
+    padding-top:1rem;
     font-size: 1.1rem;
     font-weight:900px;
     text-align:justify;   
+}
+
+@media (max-width: 530px) {
+    .cabana-titulo {
+        padding-bottom: 5px;
+        padding-top:20px;
+        font-size: 2rem;
+    }
+
+    .img1{
+        width: 400px;
+        min-height: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        border-radius: 1px;
+        box-shadow: 0 2 10 0 ;
+
+    }
 }
 
 

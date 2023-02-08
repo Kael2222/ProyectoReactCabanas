@@ -1,4 +1,3 @@
-import React from 'react'
 import CabinIcon from '@mui/icons-material/Cabin';
 import '../navbar/Navbar.css'
 
@@ -6,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="container-fluid bg-light">
         <div className="wrapper">
-            <div className="left">
+            <div className="left"> 
                 <CabinIcon />
             </div>
             <div className="right">
@@ -22,4 +21,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

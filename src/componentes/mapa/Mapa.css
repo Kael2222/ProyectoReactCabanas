@@ -12,6 +12,25 @@
 .mapa-texto{
     font-size: 1.1rem;
     font-weight:900px;
-    text-align:justify;   
+    text-align:justify;  
+
 }
+
+@media (max-width: 530px) {
+    .mapa-texto{
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .mapa {
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+    }
+
+    .titulo{
+        font-size: 2rem;
+    }
+}
+
 

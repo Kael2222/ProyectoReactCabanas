@@ -33,3 +33,21 @@
     font-size: 20px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .testimonio-icono{
+        font-size: 50px;
+    }
+
+    .testimonio-texto{
+        font-size:15px ;
+    }
+
+    .titulo{
+        font-size: 2rem;
+    }
+
+    .testimonios {
+        padding: 30px 30px 70px 30px;
+      }
+}
