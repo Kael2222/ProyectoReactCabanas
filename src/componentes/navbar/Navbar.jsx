@@ -1,14 +1,14 @@
 import CabinIcon from '@mui/icons-material/Cabin';
 import '../navbar/Navbar.css'
 
-const Navbar = () => {
+const Navbar = ( {open} ) => {
   return (
     <nav className="container-fluid bg-light">
-        <div className="wrapper">
+        <div className="header">
             <div className="left"> 
                 <CabinIcon />
             </div>
-            <div className="right">
+            <div className="navBar" style={open? { right: "0"} : {right: "-100"}}>
                 <div className="item"><a href="#inicio" className="nav-link p-0 text-muted">Inicio</a></div>
                 <div className="item"><a href="#servicios" className="nav-link p-0 text-muted">Servicios</a></div>
                 <div className="item"><a href="#cabanas" className="nav-link p-0 text-muted">Cabañas</a></div>

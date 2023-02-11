@@ -15,7 +15,7 @@
 
 .slider-container img{
     min-width: 100vw;
-    height: 100%;
+    min-height: 100%;
     object-fit: cover;
 }
 

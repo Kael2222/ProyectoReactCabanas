@@ -1,5 +1,7 @@
 .icono-logo{
-    font-size: 25px;
+    font-size: 50px;
+    color: white;
+    margin-left: 15px;
 }
 
 .iconos-redes-sociales a{
@@ -33,3 +35,5 @@
 .mfooter{
     padding: 4rem 0;
 }
+
+

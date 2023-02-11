@@ -13,7 +13,7 @@ const Servicios = () => {
             <div className='row'>
               {iconos.map((icono) => {
                   return(
-                        <div key={icono.id} className='col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center'>
+                        <div key={icono.id} className='col-md-6 col-lg-3 d-flex flex-column align-items-center'>
                           <i className={`${icono.btName} iconos-servicios`}></i>
                           <p>{icono.name}</p>
                         </div> 

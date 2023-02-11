@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="mfooter row-cols-1 row-cols-sm-2 row-cols-md-5 bg-dark text-white d-flex justify-content-center align-items-center">
       <div className="col ">
         <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
-          <CabinIcon />
+          <CabinIcon className="icono-logo"/>
           <svg className="bi me-2" width={40} height={32}><use xlinkHref="#bootstrap" /></svg>
         </a>
         <p className="text-muted">© 2023</p>

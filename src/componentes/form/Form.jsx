@@ -18,8 +18,8 @@ const Form = () => {
   return (
     <>
     <h2 className="text-center titulo" id='contacto'>Contacto</h2>
-    <div className="container container-form">
-        <form className="myform g-3" onSubmit={handleSubmit(FormSubmit)}>
+    <div className="container-fluid container-form">
+        <form className="my-form g-3" onSubmit={handleSubmit(FormSubmit)}>
         
         <div className="col-4">
             <label htmlFor="nombre" className="form-label">Nombre:</label>
